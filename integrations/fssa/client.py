@@ -32,7 +32,7 @@ class FSSAClient:
     """
 
     def __init__(self, broker_url: str = "", api_key: str = "") -> None:
-        """Initialise the FSSA client.
+        """Initialize the FSSA client.
 
         Args:
             broker_url: URL of the FSSA broker, e.g.

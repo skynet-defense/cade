@@ -36,7 +36,7 @@ class SmokeSignalClient:
     """
 
     def __init__(self, api_url: str = "", api_key: str = "") -> None:
-        """Initialise the SmokeSignal client.
+        """Initialize the SmokeSignal client.
 
         Args:
             api_url: Base URL of the SmokeSignal API, e.g.

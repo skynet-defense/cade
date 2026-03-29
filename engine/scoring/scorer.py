@@ -117,7 +117,7 @@ class Scorer:
     """
 
     def __init__(self, weights: dict[str, float] | None = None) -> None:
-        """Initialise the Scorer with optional custom dimension weights.
+        """Initialize the Scorer with optional custom dimension weights.
 
         Args:
             weights: A dict with keys ``severity``, ``likelihood``,

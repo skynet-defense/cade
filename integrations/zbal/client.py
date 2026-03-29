@@ -35,7 +35,7 @@ class ZbalClient:
     """
 
     def __init__(self, endpoint: str = "", api_key: str = "") -> None:
-        """Initialise the Zbal client.
+        """Initialize the Zbal client.
 
         Args:
             endpoint: Base URL of the Zbal API, e.g.
